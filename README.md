@@ -5,6 +5,8 @@
 
 This method analyses the quantization table of an image to assert whether a JPEG compression is significantly detected. Analysis on the quantization table is then performed to detect the likely JPEG quality factor of an image.
 
+The work builds on our implementation of the JPEG quantization table estimator presented in Nikoukhah, Tina, Miguel Colom, Jean-Michel Morel, and Rafael Grompone von Gioi. "A reliable JPEG quantization table estimator." Image Processing On Line 12 (2022): 173-197.
+
 ### Citation
 
 > Bammey, Q. (2024). JPEG Compression Quality Analysis for Image Forensics and AI-Generated Content Detection.
@@ -16,6 +18,18 @@ BibTeX:
 >       note = {\url{https://github.com/qbammey/jpeg-analysis}},
 >       year=2024
 >   }
+
+If you use this method, you can also cite the quantization table estimator we use:
+> @article{ipol.2022.399,
+>    title   = {{A Reliable JPEG Quantization Table Estimator}},
+>    author  = {Nikoukhah, Tina and Colom, Miguel and Morel, Jean-Michel and Grompone von Gioi, Rafael},
+>    journal = {{Image Processing On Line}},
+>    volume  = {12},
+>    pages   = {173--197},
+>    year    = {2022},
+>    note    = {\url{https://doi.org/10.5201/ipol.2022.399}}
+> }
+
 
 
 ### Acknowledgements
